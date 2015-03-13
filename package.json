@@ -1,0 +1,28 @@
+{
+  "name": "koa-errors",
+  "version": "1.0.0",
+  "description": "Rails-inspired error handler for Koa applications",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vdemedes/koa-errors.git"
+  },
+  "keywords": [
+    "koa",
+    "error",
+    "error-handler",
+    "handler",
+    "rails"
+  ],
+  "author": "Vadim Demedes <vdemedes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdemedes/koa-errors/issues"
+  },
+  "homepage": "https://github.com/vdemedes/koa-errors",
+  "dependencies": {
+    "co-fs": "^1.2.0",
+    "co-views": "^0.3.0",
+    "ejs": "^2.3.1"
+  }
+}
