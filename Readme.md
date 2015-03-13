@@ -4,6 +4,7 @@ Koa middleware for displaying Rails-inspired error pages for development environ
 with error name, message, stack trace and extracted code around source of error.
 
 **Note**: It does not swallow errors, they still get the same usual output in the console.
+
 **Tip**: Looking for [express version](https://github.com/vdemedes/express-errors)?
 
 
