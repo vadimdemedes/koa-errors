@@ -1,6 +1,6 @@
 {
   "name": "koa-errors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rails-inspired error handler for Koa applications",
   "main": "index.js",
   "repository": {
