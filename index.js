@@ -36,9 +36,9 @@ function * errors (next) {
   	var line = err.stack.split('\n')[1];
 
   	// parse file path and line
-  	var result = /^.+\((.+)\:([0-9]+)\:[0-9]+\)$/.exec(line);
-  	var path = result[1];
-  	var row = +result[2];
+  	var result = /at\s(.+\s)?\(?(.+)\:([0-9]+)\:[0-9]+/.exec(line);
+  	var path = result[2];
+  	var row = +result[3];
 
   	// read file and create an excerpt
   	// around line where error occured
